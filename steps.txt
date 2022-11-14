@@ -1,0 +1,28 @@
+
+python3 -m venv ./venv
+source venv/bin/activate
+
+pip install virtualenv
+python -m virtualenv venv
+
+# Activate API
+- https://developers.google.com/youtube/v3/getting-started
+
+- https://console.cloud.google.com/apis/dashboard?project=static-dock-279405
+- create new project
+- select project 
+- credentials: "+create credentials", "API key"
+AIzaSyAz1TEjzepr06Nl6u7mGkGCTu9ZwkN369E
+
+- "+Enable  APIS and services", search: "youtube data api v3", "enable"
+# examples python 
+- https://developers.google.com/youtube/v3/quickstart/python
+# intall necessary packages
+pip install --upgrade pip
+pip install --upgrade google-api-python-client
+pip install google-api-python-client
+
+
+- https://developers.google.com/youtube/v3/docs/channels/list#apps-script
+- go: try this method and click in square, then select python, copy code to notebook
+
